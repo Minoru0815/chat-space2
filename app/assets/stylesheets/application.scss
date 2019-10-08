@@ -1,29 +1,4 @@
 @import "./reset";
 @import "font-awesome";
-
 @import "variable";
-.header {
-  position: fixed;
-  height: 20px;
-  width: 100%;
-  .notice {
-    text-align: center;
-    color: white;
-      background-color: $header;
-  }
-  
-}
-
-@import"variable";
- .left-header {
-  background-color: $side-header;
-  height: 100px;
-  width: 300px;
- 
-
-}
-
-
-
-
 @import"chatmain";
