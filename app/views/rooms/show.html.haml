@@ -1,0 +1,35 @@
+.content
+  .left-content
+    .left-header
+      .name 
+        aono minoru 
+      .menu-icons
+        = link_to "#", class: "content__btn" do
+          = fa_icon 'pencil-square-o'
+        = link_to "#", class: "content__btn" do
+          = fa_icon 'cog'
+    .groups
+      .group
+        %p.group_group-name Team abc
+        %p.group_latest-message Hello world!
+  .chat-main
+    .main-header
+      .main-header_left-box 
+        Hello world!
+        .main-header_left-box_member_list 
+          Member
+      %input.edit{type: "submit", value: "Edit"}
+
+    .content-main__chat
+      .data-chat_id
+        .chat_upper-info
+          %p.chat_upper-info_talker hello
+          %p.chat_upper-info_date 2019
+        %p.message_text hey!
+    .footer   
+      .input-box
+      %input.login-input-text{name: "type-a-message", placeholder: "type a message", type: "text", value: ""}/
+      .menu-icons
+        = link_to "#", class: "content__btn" do
+          = fa_icon 'picture-o'
+      %input.submit{type: "submit", value: "send"}
