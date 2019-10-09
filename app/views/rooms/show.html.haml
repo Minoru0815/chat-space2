@@ -18,7 +18,7 @@
         Hello world!
         .main-header_left-box_member_list 
           Member
-      %input.edit{:type => "submit", :value => "Edit"}
+      %input.edit{type: "submit", value: "Edit"}
 
     .content-main__chat
       .data-chat_id
@@ -28,8 +28,8 @@
         %p.message_text hey!
     .footer   
       .input-box
-      %input.login-input-text{:name => "type-a-message", :placeholder => "type a message", :type => "text", :value => ""}/
+      %input.login-input-text{name: "type-a-message", placeholder: "type a message", type: "text", value: ""}/
       .menu-icons
         = link_to "#", class: "content__btn" do
           = fa_icon 'picture-o'
-      %input.submit{:type => "submit", :value => "send"}
+      %input.submit{type: "submit", value: "send"}
